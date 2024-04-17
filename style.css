@@ -1,0 +1,25 @@
+body {
+    background-color: green;
+    width: 1000px;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+p {
+    color: white;
+    margin-left: 1em;
+}
+abbr {
+    font-family: small-caps;
+}
+
+. {
+    text-align: right;
+}
