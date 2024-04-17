@@ -14,12 +14,15 @@ h3 {
 }
 p {
     color: white;
-    margin-left: 1em;
+    text-indent: 1em;
 }
 abbr {
     font-family: small-caps;
 }
 
-. {
+.summary {
     text-align: right;
+}
+.main {
+    line-height: 1.5;
 }
