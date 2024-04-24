@@ -4,16 +4,30 @@ texto: white
 cor destaque: darkgreen
 */
 
-body {
+html {
     background-color: green;
     width: 1000px;
     font-family: sans-serif;
 }
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+
+}
+
+header {
+    background-color: black;
+    color: green;
+}
+
 h1 {
     font-size: 1.8rem;
+    text-indent: 1em;
+    display: inline;
 }
 h2 {
     font-size: 1.4rem;
+    display: inline;
 }
 h3 {
     font-size: 1.2rem;
@@ -26,6 +40,12 @@ abbr {
     font-family: small-caps;
 }
 
+.intro {
+    height: 550px;
+}
+#design-archieves {
+    display: none;
+}
 .summary {
     text-align: right;
 }
