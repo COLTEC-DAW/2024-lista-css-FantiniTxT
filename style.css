@@ -44,7 +44,7 @@ abbr {
     display: none;
 }
 .summary {
-    text-align: right;
+    text-align: right;font-size: 1.0rem;
 }
 .main {
     line-height: 1.5;
@@ -66,10 +66,34 @@ footer > a{
     border-right: solid 1px #1f295c;
     padding-right: 2%;
 }
-aside {
+.design-selection {
     float: left;
     position: absolute;
     top: 560px;
     left: 62%;
     padding: 0, 2%;
+}
+
+a {
+    color: darkgreen;
+    font-weight: bold;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    font-weight: normal;
+}
+
+li {
+    border-top: solid 1px;
+}
+li:last-child {
+    border-bottom: solid 1px;
+}
+
+.explanation >p:first-of-type:first-letter {
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
 }
