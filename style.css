@@ -99,14 +99,23 @@ li:last-child {
     float: left;
 }
 
-.beneits {
+.benefits {
     display: flex;
     flex-direction: row-reverse;
+    border-bottom: solid 2px #1f295c;
 }
 .benefits > h3 {
     align-self: center;
-    flex: 0, 0, 30%;
+    flex: 0 0 30%;
 }
 .benefits > text {
-    flex: 0, 0, 70%;
+    flex: 0 0 70%;
+}
+.participation {
+    display: flex;
+    flex: 0 0 50%;
+    border-top: solid 2px #1f295c;
+}
+.participation > h3 {
+    align-self: center;
 }
