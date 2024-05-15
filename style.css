@@ -49,6 +49,7 @@ abbr {
 .main {
     line-height: 1.5;
 }
+
 footer {
     background-color: black;
     color: green;
@@ -96,4 +97,16 @@ li:last-child {
     font-size: 300%;
     font-family: 'Times New Roman', Times, serif;
     float: left;
+}
+
+.beneits {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.benefits > h3 {
+    align-self: center;
+    flex: 0, 0, 30%;
+}
+.benefits > text {
+    flex: 0, 0, 70%;
 }
