@@ -107,13 +107,14 @@ li:last-child {
     align-self: center;
     flex: 0 0 30%;
 }
-.benefits text {
+.benefits p {
     flex: 0 0 70%;
 }
 
 .participation {
     display: flex;
     flex: 0 0 50%;
+    flex-wrap: wrap;
     border-top: solid 2px #1f295c;
 }
 .participation h3 {
@@ -127,7 +128,7 @@ footer {
     padding: 4%;
 }
 footer a {
-    display: block;
+    display: flex;
     border-style: solid;
     border-width: 2px;
     padding: 0.5em;
