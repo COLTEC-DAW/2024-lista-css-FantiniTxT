@@ -62,8 +62,10 @@ li:last-child {
 }
 
 .page-wrapper {
+    position: relative;
     width: 80%;
     max-width: 1280px;
+    margin: 50px;
 }
 
 .summary {
