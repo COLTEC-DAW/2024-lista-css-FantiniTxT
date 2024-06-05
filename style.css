@@ -90,7 +90,7 @@ li:last-child {
     left: 62%;
     padding: 0, 2%;
 }
-#design-archieves {
+#design-archives {
     display: none;
     position: absolute;
 }
@@ -140,8 +140,9 @@ footer a {
 
 
 @media screen and (max-width: 768px) {
-    #design-archives {
-
+    .design-selection {
+        float: none;
+        position: static;
     }
     .explanation {  
         border-right: none;
@@ -150,7 +151,7 @@ footer a {
         flex-direction: column; 
     }
     .intro {
-    
+        height: auto;
     }
     p {
         text-indent: 0;
