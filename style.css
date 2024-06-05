@@ -137,6 +137,7 @@ footer a {
     border-width: 2px;
     padding: 0.5em;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 768px) {
     #design-archives {
@@ -167,3 +168,5 @@ footer a {
         color: #000000;
     }
 }
+=======
+>>>>>>> 24051a494a781cb80e029705902b7507dbae18d3
