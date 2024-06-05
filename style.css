@@ -24,6 +24,7 @@ h2 {
 }
 h3 {
     font-size: 1.2rem;
+    text-indent: 0.5em;
 }
 p {
     color: #FFFFFF;
@@ -91,6 +92,7 @@ li:last-child {
 }
 #design-archieves {
     display: none;
+    position: absolute;
 }
 
 .explanation {
@@ -134,4 +136,34 @@ footer a {
     border-style: solid;
     border-width: 2px;
     padding: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+    #design-archives {
+
+    }
+    .explanation {  
+        border-right: none;
+    }
+    .participation {
+        flex-direction: column;
+        
+    }
+    .intro {
+    
+    }
+    p {
+        text-indent: 0;
+    }
+    
+}
+
+@media print {
+    p {
+        font-family: times;
+    }
+    header {
+        background-color: rgb(0, 128, 0);
+        color: #000000;
+    }
 }
