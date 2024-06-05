@@ -147,8 +147,7 @@ footer a {
         border-right: none;
     }
     .participation {
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
     .intro {
     
@@ -156,7 +155,6 @@ footer a {
     p {
         text-indent: 0;
     }
-    
 }
 
 @media print {
